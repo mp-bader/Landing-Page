@@ -14,16 +14,18 @@ body {
 .content-container, 
 .cta-container, 
 .footer-container {
-  background-color: #0f0a0aAA;
+  background-color: #27150072;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   margin-top: 40px;
 }
 
 .background {
-  background-image: url('./content/images/forest.jpg');
-  background-size: 100% 100%;
-  background-position: center top;
+  background-image: url('./content/images/background-landing-page.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   height: 3000px;
@@ -38,7 +40,7 @@ body {
   width: 100%;
   padding-left: 200px;
   padding-right: 200px;
-  background-color: #0f3538AA;
+  background-color: #27150072;
 }
 /*Hero*/
 .hero {
@@ -57,7 +59,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
-  background-color: #0f353880;
+  background-color: #7f44005a;
   border: solid 1px #333333;
   border-radius: 16px 16px 0px 0px;
   display: flex;
@@ -67,12 +69,10 @@ body {
 }
 .header-logo {
   padding: 0;
-  margin: 0;
+  margin-left: 24px;
+  margin-top: 40px;
   width: 220px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  position: fixed;
 }
 .logo {
   padding: 0;
@@ -89,8 +89,8 @@ body {
   align-items: center;
 }
 h1 {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: solid 1px #781f1f;
+  background-color: #27150072;
+  border: solid 1px #4e2700;
   border-radius: 40px;
   font-size: 85px;
   padding: 26px 38px;
@@ -107,9 +107,9 @@ h1 {
 .links {
   width: 150px;
   height: 150px;
-  border: solid 1px #781f1f;
+  border: solid 1px #4e2700;
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #27150086;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
   margin: 10px 10px 10px 0px;
 
@@ -134,7 +134,7 @@ h1 {
     align-items: center;
 }
 .hero-info-left {
-  background-color: #0f2021D9;
+  background-color: #27150072;
   height: 100%;
   width: 38.2%;
   padding: 10px;
@@ -142,7 +142,7 @@ h1 {
   margin: 10px;
   margin-left: 0px;
   box-sizing: border-box;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 0px 0px 0px 16px;
   display: flex;
   flex-direction: column;
@@ -150,12 +150,12 @@ h1 {
   align-items: flex-start;
 }
 .hero-info-right {
-  background-color: #0f2021D9;
+  background-color: #27150072;
   height: 100%;
   width: 61.8%;
   padding: 10px;
   box-sizing: border-box;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 0px 0px 16px 0px;
   display: flex;
   justify-content: flex-start;
@@ -181,7 +181,7 @@ p {
   line-height: 8px;
 }
 .art {
-  border: solid 1px rgb(216, 216, 216);
+  border: solid 1px #814a13;
   border-radius: 0 0 12px 0;
   height: 320px;
   width: 100%;
@@ -197,7 +197,7 @@ p {
   height: 20%;
   width: 100%;
   padding: 10px;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
@@ -206,30 +206,30 @@ p {
   align-items: center;
 }
 .content-headline {
-  background-color: #0f353880;
+  background-color: #7f44005a;
   width: 100%;
   height: 150px;
   box-sizing: border-box;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 18px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .card-container {
-  background-color: #0f2021D9;
+  background-color: #27150072;
   margin: 0;
   padding: 16px;
   width: 100%;
   box-sizing: border-box;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 18px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .card {
-  border: solid 1px rgb(100, 34, 34);
+  border: solid 1px #4e2700;
   border-radius: 20px;
   width: 320px;
   height: 320px;
@@ -246,7 +246,7 @@ p {
   object-fit: cover;
 }
 .c-text {
-  background-color: #1e1e1e;
+  background-color: #27150072;
   margin: 0;
   padding: 0;
   width: 320px;
@@ -264,13 +264,13 @@ p {
 
 /* Quote */
 .quote-container {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #27150013;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   height: 20%;
   width: 100%;
   padding: 10px;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
@@ -289,7 +289,7 @@ p {
   height: 20%;
   width: 100%;
   padding: 10px;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
@@ -308,7 +308,7 @@ p {
   height: 20%;
   width: 100%;
   padding: 10px;
-  border: solid 1px #333333;
+  border: solid 1px #4e2700;
   border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   display: flex;
